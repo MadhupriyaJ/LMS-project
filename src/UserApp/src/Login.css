@@ -1,0 +1,207 @@
+.modal_full{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    text-decoration: none !important;
+    position: relative;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    outline: 0;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+    max-width: 600px;
+    margin: auto;
+    margin-top: 3%;
+}
+
+.Header {
+    display: flex;
+    padding: 0 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.modal-title_signup-new-title{
+-webkit-text-size-adjust: 100%;
+-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+font-size: 24px;
+color: #333;
+font-family: 'Open Sans', sans-serif;
+box-sizing: border-box;
+text-decoration: none !important;
+outline: none;
+text-align: left;
+padding: 0px 0px 0px 30px;
+border: 0;
+}
+.modal_body{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    text-decoration: none !important;
+    outline: none;
+    position: relative;
+    padding: 0px 40px 30px 40px;
+}
+.modal_email{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    text-decoration: none !important;
+    outline: none;
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    width: 100%;
+    text-align: left;
+    font-size: 16px;
+    line-height: 1.31;
+    letter-spacing: normal;
+    color: #444444;
+    font-weight: 500;
+}
+.modal_emailInput{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    box-sizing: border-box;
+    text-decoration: none !important;
+    outline: none;
+    margin: 0;
+    font: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    width: 100%;
+    text-align: left;
+    height: 57px;
+    border-radius: 5px;
+    box-shadow: inset 0 0 3px 0 rgba(0,0,0,0.2);
+    border: solid 1px #cbd6e2;
+    line-height: 1.31;
+    padding: 15px;
+}
+
+.modal_password{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    text-decoration: none !important;
+    outline: none;
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    width: 100%;
+    text-align: left;
+    font-size: 16px;
+    line-height: 1.31;
+    letter-spacing: normal;
+    color: #444444;
+    font-weight: 500;
+}
+
+.modal_CNpassword{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    text-decoration: none !important;
+    outline: none;
+    display: inline-block;
+    max-width: 100%;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    width: 100%;
+    text-align: left;
+    font-size: 16px;
+    line-height: 1.31;
+    letter-spacing: normal;
+    color: #444444;
+    font-weight: 500;
+}
+ 
+.modal_passwordInput{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    box-sizing: border-box;
+    text-decoration: none !important;
+    outline: none;
+    margin: 0;
+    font: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    width: 100%;
+    text-align: left;
+    height: 57px;
+    border-radius: 5px;
+    box-shadow: inset 0 0 3px 0 rgba(0,0,0,0.2);
+    border: solid 1px #cbd6e2;
+    line-height: 1.31;
+    padding: 15px;
+}
+
+.modal_terms{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    text-decoration: none !important;
+    outline: none;
+    font-size: 13px !important;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left !important;
+    line-height: 1.31;
+    color: #444444;
+    margin: 25px 0 0px;
+}
+
+.modal_loginbutton{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    box-sizing: border-box;
+    text-decoration: none !important;
+    outline: none;
+    font: inherit;
+    overflow: visible;
+    text-transform: none;
+    -webkit-appearance: button;
+    font-family: inherit;
+    display: block;
+    width: 100%;
+    height: 57px;
+    border-radius: 5px;
+    background-color: #f7951e;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.05;
+    color: #ffffff;
+    border: 0;
+    box-shadow: none;
+    margin: 15px 0 0px;
+    cursor: pointer;
+    padding: 0;
+}
+
+.modal_dontaccount{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    text-decoration: none !important;
+    outline: none;
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.31;
+    color: #444444;
+    margin: 25px 0 0px;
+}
